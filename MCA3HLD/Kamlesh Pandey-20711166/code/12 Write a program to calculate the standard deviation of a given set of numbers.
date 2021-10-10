@@ -1,0 +1,11 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+list=['600','470','170','430','300']
+n=len(list)
+sum=sd=0
+for i in list:
+    sum=sum+int(i)
+mean=sum/n
+for j in list:
+    sd=sd+((int(j)-mean)**2)
+standardDeviation=(sd/n)**(1/2)
+print("standard deviation is ",standardDeviation)
