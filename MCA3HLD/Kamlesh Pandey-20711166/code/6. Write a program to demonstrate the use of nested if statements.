@@ -1,0 +1,5 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+n=100
+if(n==100):
+    if(n<200):
+        print("n is smaller then 200")    
