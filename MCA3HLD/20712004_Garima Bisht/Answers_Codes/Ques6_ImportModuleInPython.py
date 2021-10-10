@@ -1,0 +1,3 @@
+import Nainital
+
+Nainital.Naini()
