@@ -1,0 +1,5 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+list=[10,29,6,7,20]
+if(29 in list):
+    print("element is found in list")
+print("sorted list is ",sorted(list))

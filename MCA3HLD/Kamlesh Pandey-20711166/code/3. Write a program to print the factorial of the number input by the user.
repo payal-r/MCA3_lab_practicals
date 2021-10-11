@@ -1,0 +1,6 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+n=int(input("enter the number for find factorial :"))
+result=1
+for i in range(1,n+1):
+    result=result*i
+print(result)    

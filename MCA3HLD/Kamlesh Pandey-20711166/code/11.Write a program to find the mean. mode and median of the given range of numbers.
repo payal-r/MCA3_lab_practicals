@@ -1,0 +1,25 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+list=['9','3','1','8','3','6']
+n=len(list)
+sum=0
+for i in list:
+    sum=sum+int(i)
+mean=sum/n
+if(n%2==0):
+    median=(int(list[n//2])+int(list[(n//2)-1]))/2
+else:
+    median=list[n//2]
+print("mean is ",mean," median is ",median)
+maxValue=maxCount=0  
+for i in range(n):
+    count=0
+    for j in range(n):
+        if(list[j]==list[i]):
+            count+=1
+    if(count>maxCount):
+        maxCount=count
+        maxValue=list[i]
+if(maxCount==1):
+    print("all element has same frequency ")
+else:
+    print("mode is ",maxValue)                   

@@ -1,0 +1,23 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+a=[]
+n=int(input("enter N for N x N matrix : "))
+print("enter the elements of first matrix : ")
+for i in range(n):
+    row=[]
+    for j in range(n):
+        row.append(int(input()))
+    a.append(row)
+b=[]
+print("enter the elements of second matrix: ")
+for i in range(n):
+    row=[]
+    for j in range(n):
+        row.append(int(input()))
+    b.append(row) 
+result=[[0,0,0],[0,0,0],[0,0,0]] 
+for i in range(n):
+    for j in range(len(a[0])):
+        result[i][j]=a[i][j]+b[i][j]
+print("Addition of 3 X 3 matrix is ")
+for r in result:
+    print(r)  

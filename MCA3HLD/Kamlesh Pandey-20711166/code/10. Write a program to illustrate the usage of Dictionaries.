@@ -1,0 +1,4 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+dictionary={"Name":"Kamlesh","Course":"MCA","Campus":"Haldwani"}
+for i in dictionary:
+    print(i," ",dictionary[i])

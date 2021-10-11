@@ -1,0 +1,11 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+a=10
+b=20
+sum=a+b
+sub=b-a
+mul=a*b
+divide=b/a
+modulo=b%a
+exponent=a**2
+print("sum = ",sum,"subtraction = ",sub," multiplication = ",mul)
+print(" division = ",divide," modulus = ",modulo," exponent = ",exponent)
