@@ -1,0 +1,3 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+from math import *
+print(factorial(5))

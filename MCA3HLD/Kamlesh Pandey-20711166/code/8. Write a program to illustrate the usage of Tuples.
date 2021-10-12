@@ -1,0 +1,4 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+tuple=("Graphic","Era","Hill","University")
+for i in tuple:
+    print(i)

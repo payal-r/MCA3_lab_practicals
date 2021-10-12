@@ -1,0 +1,11 @@
+#Kamlesh Pandey MCA 3 Haldwani 20711166
+n=int(input("enter the number till you want print fibonacci series "))
+first=0
+second=1
+next=first+second
+print(first)
+while(next<=n):
+    print(next)
+    next=first+second
+    first=second
+    second=next   
