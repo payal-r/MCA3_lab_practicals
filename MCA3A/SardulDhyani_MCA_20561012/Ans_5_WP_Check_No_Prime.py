@@ -1,14 +1,9 @@
 n = int(input("enter no: "))
 flag = 0
-m = 0
-
-m = n/2
-
-while (m > 0):
-    if(n % 2 == 0):
-        print("not a prime number")
-        flag = 1
-        break
-    if(flag == 0):
-        print("is a prime number")
+for i in range(2, n-1):
+  if(n%i==0):
+    flag=1
+    print("Not a prime number")
     break
+if(flag == 0):
+  print("Prime number")

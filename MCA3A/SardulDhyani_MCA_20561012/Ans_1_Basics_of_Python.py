@@ -1,4 +1,11 @@
-print("Programs on Basics of Python")
+x = input("Enter Anything")
 
-# output
-# Programs on Basics of Python
+print(x)
+print("Python Print Statement")
+
+"""
+	Enter Anything
+	Sardul
+	Sardul
+	Python Print Statement
+"""
